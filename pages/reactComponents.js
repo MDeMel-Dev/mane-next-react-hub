@@ -1,13 +1,10 @@
-import ImageBadge from "@/reactComponents/ImageBadge";
+import ImageBadge from "@/reactComponents/ImageBadge/ImageBadge";
 
 function ReactComponents() {
     return (
         <div>
-            <center>
-                <h1>The Home Page</h1>
-                <br/>
-                <ImageBadge/>
-                </center>
+            <h1>The ReactComponents</h1>
+            <ImageBadge />
         </div>
     );
 }
