@@ -1,7 +1,13 @@
+import ImageBadge from "@/reactComponents/ImageBadge";
+
 function ReactComponents() {
     return (
         <div>
-            <h1>The Home Page</h1>
+            <center>
+                <h1>The Home Page</h1>
+                <br/>
+                <ImageBadge/>
+                </center>
         </div>
     );
 }

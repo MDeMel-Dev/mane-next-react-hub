@@ -1,17 +1,17 @@
-img {
+img.badgeImage {
     width: 200px;
     border-radius: 50%;
   }
   
-  h4 {
+  h4.badgeImage {
     margin: 5px;
   }
   
-  p {
+  p.badgeImage {
     margin: 5px;
   }
   
-  .badge {
+  .badgeImage {
     width: 300px;
     margin: 0 auto;
     border: 1px solid var(--beige-10);
