@@ -11,7 +11,7 @@ img.badgeImage {
     margin: 5px;
   }
   
-  .badgeImage {
+  .badge {
     width: 300px;
     margin: 0 auto;
     border: 1px solid var(--beige-10);
