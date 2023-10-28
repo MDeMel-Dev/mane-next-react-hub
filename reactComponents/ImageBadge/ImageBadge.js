@@ -7,10 +7,10 @@ function ImageBadge() {
 
   return (
     <div className={styles.badge}>
-      <img className="imagebadge" alt={`Badge image: Mane De Mel`} src={img} />
+      <img className={styles.imagebadge} alt={`Badge image: Mane De Mel`} src={img} />
       <div>
-        <h4 className="imagebadge">{name}</h4>
-        <p className="imagebadge">{handle}</p>
+        <h4 className={styles.imagebadge}>{name}</h4>
+        <p className={styles.imagebadge}>{handle}</p>
       </div>
     </div>
   );

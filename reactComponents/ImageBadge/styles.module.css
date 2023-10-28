@@ -14,9 +14,9 @@ p.imagebadge {
 .badge {
     width: 300px;
     margin: 0 auto;
-    border: 1px solid var(--beige-10);
+    border: 1px solid #3f200c;
     border-radius: 8px;
-    background-color: var(--charcoal);
+    background-color: #d29368;
     padding: 24px;
     display: flex;
     flex-direction: column;
