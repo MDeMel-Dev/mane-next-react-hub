@@ -1,10 +1,10 @@
-import ImageBadge from "@/reactComponents/ImageBadge/ImageBadge";
+import ResponsiveFlexLayoutForComponents from "@/reactComponents/ResponsiveComponentFlexLayout/ResponsiveFlexLayoutForComponents";
 
 function ReactComponents() {
     return (
         <div>
-            <h1>The ReactComponents</h1>
-            <ImageBadge />
+            <h1 style={{ textAlign: "center" }}>React Components</h1>
+            <ResponsiveFlexLayoutForComponents />
         </div>
     );
 }
