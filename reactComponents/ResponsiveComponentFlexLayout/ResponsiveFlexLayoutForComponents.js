@@ -3,11 +3,16 @@ import ImageBadge from "../ImageBadge/ImageBadge";
 
 function ResponsiveFlexLayoutForComponents() {
     return (
-        <div className={styles.container}>
-            <ImageBadge />
-            <ImageBadge />
-            <ImageBadge />
-        </div>
+        <figure className={styles.componentz}>
+            <div className={styles.container}>
+                <ImageBadge />
+                <ImageBadge />
+                <ImageBadge />
+            </div>
+            <figcaption>
+                Responsive FlexLayout For Components
+            </figcaption>
+        </figure>
     );
 }
 
