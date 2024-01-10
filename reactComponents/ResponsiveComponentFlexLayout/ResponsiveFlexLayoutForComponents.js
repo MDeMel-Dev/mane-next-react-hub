@@ -9,7 +9,7 @@ function ResponsiveFlexLayoutForComponents() {
                 <ImageBadge />
                 <ImageBadge />
             </div>
-            <figcaption>
+            <figcaption className={styles.componentName}>
                 Responsive FlexLayout For Components
             </figcaption>
         </figure>

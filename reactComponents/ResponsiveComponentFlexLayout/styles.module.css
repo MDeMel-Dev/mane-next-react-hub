@@ -5,6 +5,6 @@
     border: 2px solid black;
 }
 
-figure.componentz {
-    justify-content: center;
+figcaption.componentName {
+    text-align: center;
 }
