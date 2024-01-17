@@ -5,9 +5,9 @@ function ResponsiveFlexLayoutForComponents() {
     return (
         <figure className={styles.componentz}>
             <div className={styles.container}>
-                <ImageBadge />
-                <ImageBadge />
-                <ImageBadge />
+                <div className={styles.circle}></div>
+                <div className={styles.stain}></div>
+                <div className={styles.octagon}></div>
             </div>
             <figcaption className={styles.componentName}>
                 Responsive FlexLayout For Components

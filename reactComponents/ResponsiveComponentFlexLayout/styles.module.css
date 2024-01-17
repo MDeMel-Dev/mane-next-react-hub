@@ -3,8 +3,48 @@
     flex-direction: row;
     justify-content: space-between;
     border: 2px solid black;
+    padding: 10px;
+}
+
+.circle {
+    width: 300px;
+    aspect-ratio: 1;
+    background: rgb(226, 125, 24);
+    border-radius: 50%;
+}
+
+.octagon {
+    width: 300px;
+    height: 300px;
+    background: rgb(46, 204, 196);
+    clip-path: polygon(16.6% 16.6%, 50% 0, 83.3% 16.6%, 100% 50%,
+            83.3% 83.3%, 50% 100%, 16.6% 83.3%, 0 50%);
+}
+
+.heart {
+    width: 300px;
+    aspect-ratio: 1;
+    background: black;
+    rotate: 45deg;
+    position: relative;
+}
+
+.stain {
+    width: 300px;
+    height: 300px;
+    background:
+        repeating-conic-gradient(#000 0 3%, #0000 0 11%),
+        repeating-conic-gradient(#0000 0 5%, #000 0 7%) 50% / 60% 60%,
+        repeating-conic-gradient(#0000 0 7%, #000 0 9%) 50% / 70% 70%,
+        repeating-conic-gradient(#0000 0 11%, #000 0 13%) 50% / 80% 80%,
+        radial-gradient(#000 22%, #0000 0),
+        #fff;
+    mix-blend-mode: darken;
+    filter: blur(10px) contrast(100) brightness(1) grayscale(1);
+    box-shadow: 0 0 0 50px #fff;
 }
 
 figcaption.componentName {
+    margin-top: 10px;
     text-align: center;
 }
